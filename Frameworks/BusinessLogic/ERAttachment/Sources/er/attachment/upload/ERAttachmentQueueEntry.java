@@ -13,9 +13,6 @@ import er.attachment.model.ERAttachment;
  *
  * @author <a href="mailto:hprange@gmail.com.br">Henrique Prange</a>
  *
- * @param <T>
- *            the type of the attachment that can queued for uploading.
- *
  * @see ERRemoteAttachment
  * @see ERAttachmentUploadQueue
  */
