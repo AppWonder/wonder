@@ -19,7 +19,11 @@ import er.attachment.model.ERAttachment;
  * @see ERRemoteAttachment
  * @see ERAttachmentUploadQueue
  */
+<<<<<<< HEAD
+public class ERAttachmentQueueEntry <T extends ERAttachment & ERRemoteAttachment> {
+=======
 public class ERAttachmentQueueEntry<T extends ERAttachment & ERRemoteAttachment> {
+>>>>>>> upstream/master
     private File _uploadedFile;
     private EOGlobalID _attachmentID;
 
